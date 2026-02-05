@@ -205,10 +205,11 @@
     #btnMaps{ right: 66px; border: 1px solid rgba(255,122,0,.25); }
 
     /* ✅ Whats em verde */
-    #btnZap{
-      right: 120px;
-      border: 1px solid var(--zapStroke);
-    }
+   #btnZap{
+  right: 120px;
+  top: calc(env(safe-area-inset-top) + 95px); /* 👈 DESCE O ZAP */
+  border: 1px solid var(--zapStroke);
+}
 
     #btnInsta svg, #btnMaps svg{
       width: 22px;
